@@ -29,7 +29,7 @@ Time_Zones = [
     'Asia/Karachi',
 ]
 
-st.title('Time Converter🕔')
+st.title('Time Zone App🕔')
 
 select_time_zone = st.multiselect("select time zone", Time_Zones, default=["Asia/Karachi", "UTC"])
 
